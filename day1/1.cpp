@@ -45,7 +45,7 @@ std::string allDigits(const std::string &input)
 int main()
 {
 	int sum = 0;
-	std::string input_file = "./data/day1.txt";
+	std::string input_file = "./day1/input.txt";
 	std::vector<std::string> lines = readFileLines(input_file);
 
 	if (lines.empty())
